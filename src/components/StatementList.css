@@ -1,0 +1,54 @@
+.statement-list {
+  padding: 20px;
+}
+
+.statement-list h2,
+.statement-list h3 {
+  margin-bottom: 15px;
+}
+
+.statement-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.statement-table th, 
+.statement-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.statement-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.statement-name, 
+.statement-amount {
+  text-align: left;
+}
+
+/* Replace the existing hyperlink styles with these */
+.edit-link,
+.delete-link,
+.void-link,
+.details-link {
+  margin-right: 10px;
+  text-decoration: underline;
+  color: #0066cc;
+}
+
+.edit-link:hover,
+.delete-link:hover,
+.void-link:hover,
+.details-link:hover {
+  color: #003366;
+}
+
+.link-disabled {
+  color: #999;
+  text-decoration: none;
+  cursor: not-allowed;
+}

@@ -1,0 +1,51 @@
+.receipt-list {
+  padding: 20px;
+}
+
+.receipt-list h2,
+.receipt-list h3 {
+  margin-bottom: 15px;
+}
+
+.receipt-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.receipt-table th, 
+.receipt-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.receipt-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.receipt-name, 
+.receipt-amount {
+  text-align: left;
+}
+
+.edit-link,
+.delete-link,
+.void-link {
+  margin-right: 10px;
+  text-decoration: underline;
+  color: #0066cc;
+}
+
+.edit-link:hover,
+.delete-link:hover,
+.void-link:hover {
+  color: #003366;
+}
+
+.link-disabled {
+  color: #999;
+  text-decoration: none;
+  cursor: not-allowed;
+}

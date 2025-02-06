@@ -1,0 +1,19 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list-container {
+  display: flex;
+  width: 100%;
+}
+
+.statement-list-container, .receipt-list-container {
+  width: 50%;
+}
+
+.statement-detail {
+  margin-top: 20px;
+  width: 80%; /* Adjust width as needed */
+}
