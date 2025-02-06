@@ -378,7 +378,7 @@ const App = () => {
   };
 
   const handleVoidStatement = (statementId: number): void => {
-    const isConfirmed = window.confirm('Are you sure you want to void this statement? This will unlink  all linked receipts and void the statement.');;
+    const isConfirmed = window.confirm('Are you sure you want to void this statement? This will unlink  all linked receipts and void the statement. (VOID STATEMENT IS NOT YET IMPLEMENTED COMPLETELY)');;
 
     if (!isConfirmed) {
       return;  // If not confirmed, exit the function
@@ -403,7 +403,7 @@ const App = () => {
   }
 
   const handleVoidReceipt = (receiptId: number): void => {
-    const isConfirmed = window.confirm('Are you sure you want to void this receipt? This will unlink the reciept from all statements.');;
+    const isConfirmed = window.confirm('Are you sure you want to void this receipt? This will unlink the reciept from all statements.VOID RECEIPT IS NOT YET IMPLEMENTED COMPLETELY');
 
     if (!isConfirmed) {
       return;  // If not confirmed, exit the function
