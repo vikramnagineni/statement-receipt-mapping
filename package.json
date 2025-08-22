@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "cra-template-typescript": "1.2.0",
-    "react": "^19.0.0",
+    "react": "^19.1.1",
     "react-dom": "^19.0.0",
     "react-scripts": "^5.0.1",
     "webpack": "^5.97.1"
